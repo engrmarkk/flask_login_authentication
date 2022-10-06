@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    padding: 15px ;
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background-color: blueviolet;
+    padding: 15px;
+}
+form {
+    width: 50%;
+    margin: 50px auto;
+    
+    box-sizing: border-box;
+}
+.form-group {
+    width: 100%;
+}
+.form-group input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px 0 10px 10px;
+}
+.check {
+    margin-bottom: 20px;
+}
